@@ -389,4 +389,155 @@ color:pink;
 <p>A resume opening statement is an important part of a job application, as it provides employers with the first impression of an applicant. A well-crafted statement can help stand out from the competition and increase their chances of being noticed and considered for a position.</p> <p>The primary benefit of a resume opening statement is that it allows applicants to quickly and efficiently summarize their career goals, qualifications and experiences. This should be concise yet powerful. It should capture the attention of employers and help them to understand why an applicant is an ideal fit for the job. In addition to summarizing qualifications, a resume opening statement can also be used to express the applicant's enthusiase for the position and highlight any unique skills they This helps employers to get a better sense of the applicant's personality and can help to spark their interest.</p>
 </body>
 </html>
-practical no. 3
+practical no. 10
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>SCSS</title>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+ <style>
+    /* Variables */
+$primary-color: #007acc;
+$secondary-color: #005f99;
+$light-bg-color: #f9f9f9;
+$white-color: #ffffff;
+$text-color: #000000;
+$box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+$border-radius: 8px;
+$font-family: Arial, sans-serif;
+
+/* Global styles */
+body {
+  font-family: $font-family;
+  margin: 0;
+  padding: 0;
+  background-color: $light-bg-color;
+}
+
+header {
+  background-color: $primary-color;
+  color: $white-color;
+  padding: 1rem;
+  text-align: center;
+}
+
+nav {
+  background-color: $secondary-color;
+  padding: 0.5rem;
+  text-align: center;
+
+  a {
+    color: $white-color;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+main {
+  padding: 2rem;
+}
+
+.tutorial {
+  background-color: $white-color;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: $border-radius;
+  box-shadow: $box-shadow;
+}
+
+footer {
+  background-color: $primary-color;
+  color: $white-color;
+  text-align: center;
+  padding: 1rem 0;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+#codeEditor {
+  width: 100%;
+  height: 200px;
+  margin-top: 1rem;
+  font-family: monospace;
+  border: 1px solid lighten($primary-color, 30%);
+  border-radius: $border-radius;
+  padding: 1rem;
+  background: #f4f4f4;
+}
+
+#runCode {
+  margin-top: 10px;
+  padding: 10px 15px;
+  background-color: $primary-color;
+  color: $white-color;
+  border: none;
+  cursor: pointer;
+  border-radius: $border-radius;
+
+  &:hover {
+    background-color: darken($primary-color, 10%);
+  }
+}
+
+#output {
+  margin-top: 1rem;
+  padding: 1rem;
+  background-color: #e6ffe6;
+  border: 1px solid #00b300;
+  border-radius: $border-radius;
+}
+
+ </style>
+    <body>
+        
+<header>
+    <h1>Interactive Coding Tutorials</h1>
+  </header>
+  
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Tutorials</a>
+    <a href="#">Challenges</a>
+    <a href="#">Community</a>
+    <a href="#">About</a>
+  </nav>
+  
+  <main>
+    <div class="tutorial">
+      <h2>Learn JavaScript: Basics</h2>
+      <p>Start with the fundamentals of JavaScript. Write your code in the editor below and see the output instantly.</p>
+      <textarea id="codeEditor">// Write your JavaScript code here\nconsole.log('Hello, World!');</textarea>
+      <button id="runCode">Run Code</button>
+      <div id="output"></div>
+    </div>
+  </main>
+  
+  <footer>
+    <p>&copy; 2024 Interactive Coding Tutorials. All Rights Reserved.</p>
+  </footer>
+  
+  <script>
+    const runButton = document.getElementById('runCode');
+    const codeEditor = document.getElementById('codeEditor');
+    const outputDiv = document.getElementById('output');
+  
+    runButton.addEventListener('click', () => {
+      try {
+        const userCode = codeEditor.value;
+        const result = eval(userCode); // Caution: eval should be used carefully in real-world applications
+        outputDiv.textContent = result || 'Code executed successfully!';
+      } catch (error) {
+        outputDiv.textContent = 'Error: ' + error.message;
+      }
+    });
+  
+    </body>
+    </script>
+</html>
