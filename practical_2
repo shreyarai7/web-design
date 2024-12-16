@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+<html>
+
+
+<head>
+
+<title>LAPTOP</title>
+
+<body>
+
+<table border = "20">
+
+<thead>
+
+<tr>
+
+<th>Laptop Name</th>
+
+<th>Laptop image</th>
+
+<th>RAM</th>
+
+<th>Hard disk size</th>
+
+</tr>
+
+<th>Price</th>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+<td> Lenovo IdeaPad</td>
+
+<td><img src = "https://m.media-amazon.com/images/I/51y+3m+n-YL.SX300_SY300_.jpg"
+
+height = "80"></td>
+
+<td>16GB</td>
+
+<td>512GB</td>
+
+<td>Rs.25,299</td>
+
+</tr>
+
+<tr>
+
+<td>HP Victus</td>
+
+<td><imgsrc = "https://m.media-amazon.com/images/I/71Q+47iEdbL.SY450.jpg"
+
+hieght = "80"></imgsrc></td>
+
+<td>16GB</td>
+
+<td>512GB</td>
+ <td>Rs.112,999</td>
+
+</tr>
+
+<tr>
+
+<td>HP EliteBook</td>
+
+<td><img src="https://m.media-amazon.com/images/I/71x1PocPi8L. SY450_.jpg"
+
+hieght "8"></td>
+
+<td>@GB</td>
+
+<td>51268</td>
+
+<td>Rs.23,990</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+4frale width="560" height="315" src="https://www.youtube.com/embed/fd6IhzBcEY@?si=Lu Ciframe" title="YouTube video player" frameborderctuallowed accelerometer; autoplay Clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy
+
+ "strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+</body>
+
+ </head>
