@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Accessible Video Software</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #000000;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+h1, h2 {
+    margin: 0;
+}
+header {
+    background: #f8f9fa;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.navbar .logo img {
+    height: 100px;
+    width: 150px;
+}
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+.navbar ul li {
+    font-weight: bold;
+    color: #000000; 
+}
+.signup {
+    color: #007BFF;
+    font-weight: bold;
+}
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 20px;
+    background-color: pink;
+}
+.hero-content {
+    max-width: 50%;
+}
+.hero-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #000000;
+}
+.hero-content p {
+    color: #FFFFFF; 
+}
+.hero-content .watch-btn {
+    background-color: #FFFFFF;
+    color: #000000; 
+    border: 2px solid #000000;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.hero-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 25px;
+}
+.features {
+    display: flex;
+}
+.feature {
+    flex: 1;
+    padding: 30px;
+    text-align: center;
+    width: 600px;
+    height: 200px;
+}
+.feature-yellow {
+    background-color: #FEDD00;
+    color: #ffffff; 
+}
+.feature-green {
+    background-color: #66dbac;
+    color: #ffffff; 
+}
+.feature-blue {
+    background-color: #007BFF;
+    color: #FFFFFF; 
+}
+.feature h2 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: inherit; 
+}
+.feature p {
+    margin-bottom: 20px;
+    color: #000000; 
+}
+.feature .btn {
+    background-color: auto;
+    color: black; 
+    padding: 10px 20px;
+    border: 2px solid #000000; 
+    border-radius: 5px; 
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer; 
+}
+footer {
+    text-align: center;
+    padding: 1.5em 0;
+    margin-top: 20px;
+    font-size: 0.9em;
+}
+footer p {
+    margin: 0.5em 0;
+}
+footer a {
+    text-decoration: none;
+    font-weight: bold;
+}
+footer a:hover {
+    text-decoration: underline;
+}
+</html>
+</style>
+<body>
+    <!-- Header Section -->
+    <header class="navbar" role="banner">
+        <div class="logo">
+            <img src="studio.logo.png" alt="studio logo " />
+        </div>
+        <nav role="navigation" aria-label="Primary Navigation">
+            <ul>
+                <li><a href="#product" aria-label="Learn about the Product">Product</a></li>
+                <li><a href="#solutions" aria-label="Explore Solutions">Solutions</a></li>
+                <li><a href="#learn" aria-label="Learn more">Learn</a></li>
+                <li><a href="#about" aria-label="About our Company">About</a></li>
+                <li><a href="#support" aria-label="Support Information">Support</a></li>
+                <li><a href="#pricing" aria-label="View Pricing Details">Pricing</a></li>
+            </ul>
+        </nav>
+        <a href="#signup" class="signup" aria-label="Sign up for our service">Sign up</a>
+    </header>
+    
+    <!-- Main Content -->
+    <main id="main-content" role="main">
+        <!-- Hero Section -->
+        <section class="hero" aria-labelledby="hero-heading">
+            <div class="hero-content">
+                <h1 id="hero-heading">Video software for the video-loving business</h1>
+                <p>Engage your audience with cutting-edge video solutions.</p>
+                <button class="watch-btn" aria-label="Watch a video about our software">Watch video</button>
+            </div>
+            <div class="hero-image">
+                <img src="camera.jpg" alt="A man holding a camera" />
+            </div>
+        </section>
+        
+        <!-- Features Section -->
+        <section class="features" aria-labelledby="features-heading">
+            <h2 id="features-heading" class="sr-only">Features</h2>
+            <div class="feature feature-yellow" role="region" aria-labelledby="feature1-heading">
+                <h2 id="feature1-heading">Next-Level Video Hosting Platform</h2>
+                <p>Try our sleek, customizable player, advanced tools for marketers, and detailed analytics.</p>
+                <a href="#" class="btn" aria-label="Start using the platform for free">Start for free</a>
+            </div>
+            <div class="feature feature-green" role="region" aria-labelledby="feature2-heading">
+                <h2 id="feature2-heading">Soapbox: Create new videos, fast</h2>
+                <p>Make professional videos in minutes with just your computer's camera and a smile.</p>
+                <a href="#" class="btn" aria-label="Download the Soapbox software">Download Soapbox</a>
+            </div>
+            <div class="feature feature-blue" role="region" aria-labelledby="feature3-heading">
+                <h2 id="feature3-heading">Grow your video skills</h2>
+                <p>In-depth guides for making, marketing, and measuring videos. Get inspired and get shooting.</p>
+                <a href="#" class="btn" aria-label="Explore guides and learn more">Explore and learn</a>
+            </div>
+        </section>
+    </main>
+    
+    <!-- Footer -->
+    <footer role="contentinfo">
+        <p>&copy; 2024 Your Name. All rights reserved.</p>
+        <p>
+            Follow us on 
+            <a href="https://twitter.com/" target="_blank" aria-label="Visit our Twitter page">Twitter</a> | 
+            <a href="https://facebook.com/" target="_blank" aria-label="Visit our Facebook page">Facebook</a>
+        </p>
+    </footer>
+</body>
+</html>
