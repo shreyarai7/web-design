@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>SCSS</title>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+ <style>
+    /* Variables */
+$primary-color: #007acc;
+$secondary-color: #005f99;
+$light-bg-color: #f9f9f9;
+$white-color: #ffffff;
+$text-color: #000000;
+$box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+$border-radius: 8px;
+$font-family: Arial, sans-serif;
+
+/* Global styles */
+body {
+  font-family: $font-family;
+  margin: 0;
+  padding: 0;
+  background-color: $light-bg-color;
+}
+
+header {
+  background-color: $primary-color;
+  color: $white-color;
+  padding: 1rem;
+  text-align: center;
+}
+
+nav {
+  background-color: $secondary-color;
+  padding: 0.5rem;
+  text-align: center;
+
+  a {
+    color: $white-color;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+main {
+  padding: 2rem;
+}
+
+.tutorial {
+  background-color: $white-color;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: $border-radius;
+  box-shadow: $box-shadow;
+}
+
+footer {
+  background-color: $primary-color;
+  color: $white-color;
+  text-align: center;
+  padding: 1rem 0;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+#codeEditor {
+  width: 100%;
+  height: 200px;
+  margin-top: 1rem;
+  font-family: monospace;
+  border: 1px solid lighten($primary-color, 30%);
+  border-radius: $border-radius;
+  padding: 1rem;
+  background: #f4f4f4;
+}
+
+#runCode {
+  margin-top: 10px;
+  padding: 10px 15px;
+  background-color: $primary-color;
+  color: $white-color;
+  border: none;
+  cursor: pointer;
+  border-radius: $border-radius;
+
+  &:hover {
+    background-color: darken($primary-color, 10%);
+  }
+}
+
+#output {
+  margin-top: 1rem;
+  padding: 1rem;
+  background-color: #e6ffe6;
+  border: 1px solid #00b300;
+  border-radius: $border-radius;
+}
+
+ </style>
+    <body>
+        
+<header>
+    <h1>Interactive Coding Tutorials</h1>
+  </header>
+  
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Tutorials</a>
+    <a href="#">Challenges</a>
+    <a href="#">Community</a>
+    <a href="#">About</a>
+  </nav>
+  
+  <main>
+    <div class="tutorial">
+      <h2>Learn JavaScript: Basics</h2>
+      <p>Start with the fundamentals of JavaScript. Write your code in the editor below and see the output instantly.</p>
+      <textarea id="codeEditor">// Write your JavaScript code here\nconsole.log('Hello, World!');</textarea>
+      <button id="runCode">Run Code</button>
+      <div id="output"></div>
+    </div>
+  </main>
+  
+  <footer>
+    <p>&copy; 2024 Interactive Coding Tutorials. All Rights Reserved.</p>
+  </footer>
+  
+  <script>
+    const runButton = document.getElementById('runCode');
+    const codeEditor = document.getElementById('codeEditor');
+    const outputDiv = document.getElementById('output');
+  
+    runButton.addEventListener('click', () => {
+      try {
+        const userCode = codeEditor.value;
+        const result = eval(userCode); // Caution: eval should be used carefully in real-world applications
+        outputDiv.textContent = result || 'Code executed successfully!';
+      } catch (error) {
+        outputDiv.textContent = 'Error: ' + error.message;
+      }
+    });
+  
+    </body>
+    </script>
+</html>
+practical no 1
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration form</title>
+       
+    </head>
+    <body>
+    <form>
+        <h1><b>REGISTRATION FORM</h1>
+
+            <p><b><ol><li>NAME: <input type="text" required</p1>
+            
+            <p2><NAME="First name"></p2>
+            
+            <p3><input type="last name "required></p3> <p><br><br><li>D. 0. B*<input type="date" required></p>
+            
+            <p5><br><br><li>*GENDER: <br> male<input type="radio" name="gender" id=male></li>p5>
+            
+            <p6>female<input type="radio" name="gender" id=female required></p6> <p7><li>EMAIL ADDRESS: <input type="email" required></p7>
+            
+            <p8<br><br><li>ADDRESS: <input type="text" required</p>
+            
+            <p><br><br><li>PIN CODE: <input type="4 numbers" required> </p9>
+            
+            -<p10><br><br><li>*BRANCH: <br><input type="checkbox" required>CSE<br>
+            
+            <input type="checkbox" required>ETC <br>
+            
+            <input type="checkbox" required>EE<br> <input type="checkbox" required>ME<br>
+            
+            <input type="checkbox" required>CE<br>
+            
+            <br><11>PHONE NO.:<input type="numbers"> <br><br>
+            
+            cultural activities included:
+            
+            <br><ol><li>folk dance<br>
+            
+            -<li>solo dance<br><li>hip hop dance
+            
+            <p11><br><br><li>Card type: <select name="Card type" id="card type"></p11
+            
+            <option value="">Select a card type</option>
+            
+            <option value="Visa">Visa</option>
+            
+            <option value="rupay">Rupay</option>
+            
+            <option value="BHIM UPI"> BHIM UPI</option>
+            
+            </select><br><br>
+            
+            <li>Card number <input type="number "name="card number"
+            
+            id="cardnumber"> <br><br>
+            
+            <li>Expiration Date: <input type="date" name="exp_date"
+            
+            id="exp_date"> <br><br>
+            
+            <li>CVV <input type="password"
+            
+            name="CV" id="CVV"> <br><br>
+            
+            for any query contact us on
+            
+            <a href="https://www.doubtsolve.com/">visit www.doubtsolve.com</a><br>
+            
+            <br><input type="submit" value="Pay Now"> <br>
+            
+            <br><br><input type=submit value =submit> <br><br>
+            
+            <input type reset value reset>
+    </form>
+        
+
+  
+    </body>
+    
+</html>
