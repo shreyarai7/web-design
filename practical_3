@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial
+
+<title>GOVERNMENT COLLEGE OF ENGINEERING NAGPUR</title>
+
+0
+
+<style>
+
+body {
+
+background-color: lightgray;
+
+}
+h1 {
+
+background-color: darkblue; color: white;
+
+nav {
+
+background-color: coral; color: white;
+
+}
+
+h2 {
+
+background-color: olive; color: white;
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<h1>GOVERNMENT COLLEGE OF ENGINEERING NAGPUR</h1>
+
+<nav>
+
+<a href="#">Home</a> 
+
+
+<aref="#">Courses</a>
+
+ref="#">Login/Signup</a>
+
+ref="#">Study-Material</a> 
+</h2>
+
+<td><video width="300" controls><source src="3196425-uhd_3840_2160_25fps.mp4" type="video/mp4"></video></td> td><video width="300" controls><source src="1234adog.mp4"
+
+type="video/mp4"></video></td> td><video width="300" controls><source src="jaadu123.mp4" type="video/mp4"></video></td>
+
+d><video width="300" controls src="https://www.youtube.com/watch?v=NhwvA5Zqtio"></video></td>
+
+<td><video width="300" controls src="https://www.youtube.com/watch?v=8mAITcNt710"></video></td>
+
+</td>< video width="300" controls src="https://www.youtube.com/watch?v=AgTRJQ_1XdE"></video></td>
+
+Reviews</h2> href="#">College</a> |
+Y material</h2>
+
+<td><img width="600" src="https://load.meta.org/ > </img>
+
+<h2>Our Founder</h2>
+
+<h3>Our Founder</h3>
+
+<p><a href="#">LinkedIn</a>
+
+<a href="#">Instagram</a>
+
+</p>
+
+<a href="#">Facebook</a>
+
+<p>text about our founder </p>
+
+<p> innovators in industry and other allied areas and enhance their entrepreneurship skills.</p>
+
+<footer>
+
+<a href="#">FAQ</a> |
+
+<a href="#">Contact Us</a> | <a href="#">Terms of Use</a> |
+
+<a href="#">Privacy Policy</a> |
+
+<p>2024 GCOE NAGPUR</p>
+
+</footer>
+
+</body>
+
+</html>
