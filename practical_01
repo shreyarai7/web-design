@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+   
+    <body>
+       <form>
+        <h1><b>REGISTRATION FORM</h1>
+
+            <p><b><ol><li>NAME: <input type="text" required</p1>
+            
+            <p2><NAME="First name"></p2>
+            
+            <p3><input type="last name "required></p3> <p><br><br><li>D. 0. B*<input type="date" required></p>
+            
+            <p5><br><br><li>*GENDER: <br> male<input type="radio" name="gender" id=male
+            
+            <p6>female<input type="radio" name="gender" id=female required></p6> <p7><li>EMAIL ADDRESS: <input type="email" required></p7>
+            
+            <p8<br><br><li>ADDRESS: <input type="text" required</p>
+            
+            <p><br><br><li>PIN CODE: <input type="4 numbers" required> </p9>
+            
+            -<p10><br><br><li>*BRANCH: <br><input type="checkbox" required>CSE<br>
+            
+            <input type="checkbox" required>ETC <br>
+            
+            <input type="checkbox" required>EE<br> <input type="checkbox" required>ME<br>
+            
+            <input type="checkbox" required>CE<br>
+            
+            <br><11>PHONE NO.:<input type="numbers"> <br><br>
+            
+            cultural activities included:
+            
+            <br><ol><li>folk dance<br>
+            
+            -<li>solo dance<br><li>hip hop dance
+            
+            <p11><br><br><li>Card type: <select name="Card type" id="card type"></p11
+            
+            <option value="">Select a card type</option>
+            
+            <option value="Visa">Visa</option>
+            
+            <option value="rupay">Rupay</option>
+            
+            <option value="BHIM UPI"> BHIM UPI</option>
+            
+            </select><br><br>
+            
+            <li>Card number <input type="number "name="card number"
+            
+            id="cardnumber"> <br><br>
+            
+            <li>Expiration Date: <input type="date" name="exp_date"
+            
+            id="exp_date"> <br><br>
+            
+            <li>CVV <input type="password"
+            
+            name="CV" id="CVV"> <br><br>
+            
+            for any query contact us on
+            
+            <a href="https://www.doubtsolve.com/">visit www.doubtsolve.com</a><br>
+            
+            <br><input type="submit" value="Pay Now"> <br>
+            
+            <br><br><input type=submit value =submit> <br><br>
+            
+            <input type reset value reset>
+       </form>
+    </body>
+</html>
