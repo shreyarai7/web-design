@@ -1,0 +1,114 @@
+a. box model
+<!DOCTYPE html>
+
+<html lang="en">
+
+<meta charset="UTF-8" />
+
+<meta name="viewport" content="width=device-width, initial-scale-1.0" />
+<head>
+
+consent in CSS
+
+<title>Browser</title>
+
+<style> div{ background-color: yellow;
+
+height: 200px; width:300px; padding: 18px; border: 10px solid black;
+
+margin:20px;}
+</style>
+
+</head>
+
+<body> <h1>
+CSS Information
+</h1>
+<p>
+
+<div>CSS (Cascading Style Sheets) is a stylesheet language used to control the layout and appearance of HTML elements on a web page. It allows developers to define styles for elements such as colors, fonts, spacir positioning, and more. CSS can be written inline within HTML, embedded in the <style> tag, or linked externally in a separate file. By separating content (HTML) from presentation (CSS), it makes web design more efficient and maintainable.CSS also enables responsive design, ensuring websites look great across different devices and screen sizes.
+</div>
+</p>
+<script src="script.js"></script>
+</body>
+</html>
+b. media queries 
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<style>
+
+@media screen and (max-width: 480px), screen and (orientation: landscape) (
+
+body { background-color: pink;
+
+}
+
+</style>
+
+<body>
+
+</head>
+
+<h1>About the Government College College of Engineering, Nagpuri</h1>
+
+<p>This Institute, commonly referred as GGBEN, was started functioning in 2016 with 5 UG & 1 PG Engineering Programmes under the administrative control of Higher and Technical Education, Govt. of Maharashtra. The Institute is affiliated to RTM Nagpur University Nagpur, within a short span of time, GCOEN has established its own identity not only in the Vidarbha region but also in the Maharashtra State. The students of high caliber are the backbones of the Institute.</p>
+</body>
+</html>
+float property 
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0> <title>Float Property</title>
+
+<style>
+
+body{margin:0 auto;
+
+}
+
+max-width: 900px; width:90%;#box{float:left;
+
+margin:15px;
+
+width:150px;
+
+height:150px;
+
+border-radius:5px;
+
+background-color:blue;
+
+}
+
+padding: 1em;
+
+.special{background-color:red; padding:15px;
+}
+
+color:pink;
+
+.cleared{clear: left
+
+}</style>
+
+</head>
+
+<body>
+
+<h1>Float Property</h>
+
+<img id="box" src="pic.jpeg" alt="pic">
+
+<h1 class="special">Resume</h1>
+<p>A resume opening statement is an important part of a job application, as it provides employers with the first impression of an applicant. A well-crafted statement can help stand out from the competition and increase their chances of being noticed and considered for a position.</p> <p>The primary benefit of a resume opening statement is that it allows applicants to quickly and efficiently summarize their career goals, qualifications and experiences. This should be concise yet powerful. It should capture the attention of employers and help them to understand why an applicant is an ideal fit for the job. In addition to summarizing qualifications, a resume opening statement can also be used to express the applicant's enthusiase for the position and highlight any unique skills they This helps employers to get a better sense of the applicant's personality and can help to spark their interest.</p>
+</body>
+</html>
